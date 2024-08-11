@@ -28,12 +28,31 @@
     </section>
     <section id="menu">
         <h2>Our Menu</h2>
-        <ul>
-            <li>Espresso</li>
-            <li>Latte</li>
-            <li>Cappuccino</li>
-            <li>Mocha</li>
-        </ul>
+        <div class="menu-item">
+            <h3>Espresso</h3>
+            <p>A strong and bold coffee shot.</p>
+            <label for="espresso-quantity">Quantity:</label>
+            <input type="number" id="espresso-quantity" name="espresso-quantity" min="1" value="1">
+        </div>
+        <div class="menu-item">
+            <h3>Latte</h3>
+            <p>A smooth blend of espresso and steamed milk.</p>
+            <label for="latte-quantity">Quantity:</label>
+            <input type="number" id="latte-quantity" name="latte-quantity" min="1" value="1">
+        </div>
+        <div class="menu-item">
+            <h3>Cappuccino</h3>
+            <p>A perfect balance of espresso, steamed milk, and foam.</p>
+            <label for="cappuccino-quantity">Quantity:</label>
+            <input type="number" id="cappuccino-quantity" name="cappuccino-quantity" min="1" value="1">
+        </div>
+        <div class="menu-item">
+            <h3>Mocha</h3>
+            <p>A delightful mix of espresso, chocolate, and steamed milk.</p>
+            <label for="mocha-quantity">Quantity:</label>
+            <input type="number" id="mocha-quantity" name="mocha-quantity" min="1" value="1">
+        </div>
+        <button id="order-button">Place Order</button>
     </section>
     <section id="contact">
         <h2>Contact Us</h2>
