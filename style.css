@@ -32,8 +32,14 @@ section {
     text-align: center;
 }
 
-.menu-item {
+.menu-item, .gallery-item, .review-item {
     margin: 1rem 0;
+}
+
+.gallery-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
 
 footer {
