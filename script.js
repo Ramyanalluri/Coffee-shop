@@ -12,4 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
         Cappuccino: ${cappuccinoQuantity}
         Mocha: ${mochaQuantity}`);
     });
+
+    const newsletterForm = document.getElementById('newsletter-form');
+    newsletterForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const email = document.getElementById('newsletter-email').value;
+        alert(`Thank you for subscribing with ${email}!`);
+    });
 });
