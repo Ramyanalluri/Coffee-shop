@@ -32,6 +32,10 @@ section {
     text-align: center;
 }
 
+.menu-item {
+    margin: 1rem 0;
+}
+
 footer {
     background-color: #6f4e37;
     color: white;
