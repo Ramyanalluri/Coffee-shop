@@ -20,69 +20,80 @@
             </ul>
         </nav>
     </header>
-    <section id="home">
+
+    <section id="home" class="section">
         <h2>Home</h2>
-        <p>Enjoy the best coffee in town!</p>
+        <p>Enjoy the best coffee in town! Experience a variety of coffee flavors that will tantalize your taste buds and awaken your senses.</p>
     </section>
-    <section id="about">
+
+    <section id="about" class="section">
         <h2>About Us</h2>
-        <p>We are passionate about coffee and committed to providing the best experience.</p>
+        <p>We are passionate about coffee and committed to providing the best experience. Our beans are sourced from the finest regions around the world, and every cup is crafted with love and precision.</p>
     </section>
-    <section id="menu">
+
+    <section id="menu" class="section">
         <h2>Our Menu</h2>
         <div class="menu-item">
             <h3>Espresso</h3>
-            <p>A strong and bold coffee shot.</p>
+            <p>A strong and bold coffee shot, perfect for a quick boost of energy. Made from the finest beans, our espresso delivers a rich and intense flavor.</p>
             <label for="espresso-quantity">Quantity:</label>
             <input type="number" id="espresso-quantity" name="espresso-quantity" min="1" value="1">
         </div>
         <div class="menu-item">
             <h3>Latte</h3>
-            <p>A smooth blend of espresso and steamed milk.</p>
+            <p>A smooth blend of espresso and steamed milk, with a light froth on top. Our latte is the perfect balance of strength and creaminess.</p>
             <label for="latte-quantity">Quantity:</label>
             <input type="number" id="latte-quantity" name="latte-quantity" min="1" value="1">
         </div>
         <div class="menu-item">
             <h3>Cappuccino</h3>
-            <p>A perfect balance of espresso, steamed milk, and foam.</p>
+            <p>A perfect balance of espresso, steamed milk, and foam. Our cappuccino is topped with a sprinkle of cocoa for a delightful finish.</p>
             <label for="cappuccino-quantity">Quantity:</label>
             <input type="number" id="cappuccino-quantity" name="cappuccino-quantity" min="1" value="1">
         </div>
         <div class="menu-item">
             <h3>Mocha</h3>
-            <p>A delightful mix of espresso, chocolate, and steamed milk.</p>
+            <p>A delightful mix of espresso, chocolate, and steamed milk, topped with whipped cream. The perfect choice for chocolate lovers.</p>
             <label for="mocha-quantity">Quantity:</label>
             <input type="number" id="mocha-quantity" name="mocha-quantity" min="1" value="1">
         </div>
         <button id="order-button">Place Order</button>
+        <div id="order-summary"></div>
     </section>
-    <section id="gallery">
+
+    <section id="gallery" class="section">
         <h2>Gallery</h2>
         <div class="gallery-item">
             <img src="images/coffee1.jpg" alt="Coffee Image 1" class="image-size">
-            <p>Our delicious espresso.</p>
+            <p>Our delicious espresso, served fresh and hot.</p>
         </div>
         <div class="gallery-item">
             <img src="images/coffee2.jpg" alt="Coffee Image 2" class="image-size">
-            <p>Latte art at its finest.</p>
+            <p>Latte art at its finest, showcasing our barista’s skills.</p>
         </div>
         <div class="gallery-item">
             <img src="images/coffee3.jpg" alt="Coffee Image 3" class="image-size">
-            <p>Relaxing ambiance.</p>
+            <p>Relaxing ambiance, perfect for enjoying your coffee.</p>
         </div>
     </section>
-    <section id="reviews">
+
+    <section id="reviews" class="section">
         <h2>Customer Reviews</h2>
         <div class="review-item">
             <p>"Best coffee in town! Highly recommend."</p>
             <p>- Jane Doe</p>
         </div>
         <div class="review-item">
-            <p>"Great atmosphere and friendly staff."</p>
+            <p>"Great atmosphere and friendly staff. The espresso is top-notch!"</p>
             <p>- John Smith</p>
         </div>
+        <div class="review-item">
+            <p>"I absolutely love the mocha. It’s the perfect blend of coffee and chocolate."</p>
+            <p>- Sarah Lee</p>
+        </div>
     </section>
-    <section id="contact">
+
+    <section id="contact" class="section">
         <h2>Contact Us</h2>
         <form>
             <label for="name">Name:</label>
@@ -100,6 +111,7 @@
             <button type="submit">Subscribe</button>
         </form>
     </section>
+
     <footer>
         <p>© 2024 Coffee Shop. All rights reserved.</p>
     </footer>
